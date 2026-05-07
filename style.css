@@ -1,0 +1,166 @@
+/* 1. ESTRUTURA GLOBAL E RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    border: green 3px solid;
+    box-shadow: 20px 200px 100px rgba(0, 255, 0, 0.5);
+    border-radius: 15px;
+    font-family: Arial, sans-serif; /* Adicionado para melhor leitura */
+}
+
+/* 2. COMPONENTES DE TEXTO E TÍTULOS */
+.titulo_principal {
+    text-align: center;
+    font-size: 50px;
+    margin: 60px auto 20px;
+    color: #CFFF04;
+    border: green 3px solid;
+    box-shadow: 2px 10px 100px rgba(0, 255, 0, 0.5);
+    border-radius: 40px;
+    width: fit-content;
+    padding: 10px 30px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    color: #E0E0E0;
+}
+
+h4 {
+    color: #00ff00;
+    margin: 20px 5%;
+}
+
+.conteudo, .conteudo_mint {
+    color: #f0f0f0;
+    margin: 10px 5%;
+    line-height: 1.6;
+}
+
+/* 3. IMAGENS E CONTAINERS */
+.container_img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    width: 90%;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.img_first {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+/* 4. O CARD DO KERNEL (DESTAQUE) */
+.kernel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Gemini_Generated_Image_9fht749fht749fht.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 1000px;
+    width: 90%;
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 25px rgba(0, 255, 0, 0.3);
+    color: #f0f0f0;
+}
+
+.kernel h3 {
+    color: #00ff00;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.kernel a {
+    color: #00ff00;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.kernel a:hover {
+    color: #CFFF04;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+.lista_kernel {
+    margin: 20px 0 20px 40px;
+}
+
+.lista_kernel li {
+    margin-bottom: 12px;
+}
+
+.lista_kernel strong {
+    color: #00ff00;
+}
+
+/* 5. LISTAS E NOTAS TÉCNICAS (Geral) */
+.lista, .lista_positiva, .lista_negativa {
+    color: #f0f0f0;
+    margin-left: 7%;
+    margin-bottom: 20px;
+}
+
+.nota_tecnica {
+    background-color: rgba(0, 255, 0, 0.1);
+    border-left: 4px solid #00ff00;
+    padding: 15px;
+    margin: 20px 5%;
+    color: #f0f0f0;
+}
+
+.nota_tecnica a {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0, 255, 0, 0.2);
+    margin: 50px 0;
+}
+
+/* 6. RODAPÉ (CRIADOR) */
+.criador {
+    display: flex;
+    margin: 80px auto 40px;
+    width: 250px;
+    border: 1px solid rgba(0, 255, 0, 0.5);
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nome {
+    color: #FAF9F6;
+    font-size: 0.9em;
+}
+
+.img_linkedin {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.img_linkedin:hover {
+    transform: scale(1.1);
+}
