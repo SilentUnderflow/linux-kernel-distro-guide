@@ -1,7 +1,3 @@
-Com certeza, Pablo. Para um projeto de portfólio, um bom README é o que separa um repositório comum de um projeto profissional. Ele mostra que você se preocupa com a documentação, algo vital em Cybersecurity.
-
-Aqui está uma estrutura sólida que reflete seu objetivo de compartilhar conhecimento e destaca as tecnologias que você usou.
-
 📑 README.md
 🚀 Guia de Distribuições & Kernels Linux
 Este projeto é um guia interativo e visual desenvolvido para explorar o ecossistema Linux. O objetivo principal é consolidar e compartilhar o aprendizado sobre como o Kernel atua como o coração dos sistemas operacionais e as particularidades das principais distribuições (distros) do mercado.
